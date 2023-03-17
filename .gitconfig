@@ -1,0 +1,16 @@
+[user]
+	email = korchahin2000@gmail.com
+	name = Pavel Korchahin
+[core]
+	autocrlf = true
+	safecrlf = warn
+	quotepath = off
+	editor = 'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
